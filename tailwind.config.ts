@@ -82,6 +82,7 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -89,6 +90,28 @@ const config = {
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
+        },
+        "drop-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-100%) scale(0)",
+            borderRadius: "50%",
+            height: "0",
+            width: "0",
+          },
+          "50%": {
+            opacity: "1",
+            transform: "translateY(0) scale(1)",
+            borderRadius: "50%",
+            height: "12rem",
+            width: "12rem",
+          },
+          "100%": {
+            transform: "translateY(0)",
+            borderRadius: "9999px",
+            height: "3rem",
+            width: "90%",
+          },
         },
         spotlight: {
           "0%": {
@@ -150,6 +173,7 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "drop-in": "drop-in 1s ease-in-out forwards",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",
