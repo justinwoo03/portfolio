@@ -170,35 +170,55 @@ export const navItems = [
     },
   ];
   
+  // export const workExperience = [
+  //   {
+  //     id: 1,
+  //     title: "Frontend Engineer Intern",
+  //     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp1.svg",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Mobile App Dev - JSM Tech",
+  //     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+  //     className: "md:col-span-2", // change to md:col-span-2
+  //     thumbnail: "/exp2.svg",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Freelance App Dev Project",
+  //     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+  //     className: "md:col-span-2", // change to md:col-span-2
+  //     thumbnail: "/exp3.svg",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Lead Frontend Developer",
+  //     desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //     className: "md:col-span-2",
+  //     thumbnail: "/exp4.svg",
+  //   },
+  // ];
+
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      year: "Sept 2021 - Present",
+      role: "Full-Time Computer Science Student",
+      company: "University of California, Irvine",
+      description: "Full-Time Student pursuing a B.S. in Computer Science.",
+      technologies: ["HTML", "CSS", "Python", "C++", "C"],
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      year: "May 2022 - Jul 2022",
+      role: "C++ and Python Tutor",
+      company: "Private Company",
+      description: "“As a C++ and Python tutor during my first year of university, I was entrusted with helping a fellow student struggling in both their introductory C++ and Python course. Through personalized one-on-one sessions, I effectively broke down complex programming concepts into simple, digestible explanations, covering both foundational topics and advanced features of C++ and Python. This role not only deepened my own mastery of C++, but also sharpened my communication and teaching skills. Additionally, I successfully balanced tutoring responsibilities with a demanding academic schedule, honing my time management and organizational abilities.”",
+      technologies: ["C++"]
     },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+
   ];
   
   export const socialMedia = [
