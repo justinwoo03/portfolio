@@ -7,6 +7,8 @@ import { DiRedis } from 'react-icons/di';
 import { FaNodeJs } from 'react-icons/fa';
 import { BiLogoPostgresql } from 'react-icons/bi';
 import { motion } from 'framer-motion';
+import { useState } from "react";
+
 
 const iconVariants = (duration: number) => ({
     initial: { y: -10 },
@@ -22,6 +24,7 @@ const iconVariants = (duration: number) => ({
 });
 
 const Technologies = () => {
+
     return (
         <div className="py-20">
             <h1 className="heading">
@@ -31,6 +34,7 @@ const Technologies = () => {
             <motion.div 
                 whileInView={{opacity: 1, x: 0}}
                 initial={{opacity: 0, x: -100}}
+                viewport={{ once: true }}
                 transition={{duration: 1.5}}
                 className="flex flex-wrap items-center justify-center gap-4">
                 <motion.div

@@ -215,7 +215,7 @@ export const navItems = [
       year: "May 2022 - Jul 2022",
       role: "C++ and Python Tutor",
       company: "Private Company",
-      description: "“As a C++ and Python tutor during my first year of university, I was entrusted with helping a fellow student struggling in both their introductory C++ and Python course. Through personalized one-on-one sessions, I effectively broke down complex programming concepts into simple, digestible explanations, covering both foundational topics and advanced features of C++ and Python. This role not only deepened my own mastery of C++, but also sharpened my communication and teaching skills. Additionally, I successfully balanced tutoring responsibilities with a demanding academic schedule, honing my time management and organizational abilities.”",
+      description: "As a C++ and Python tutor during my first year of university, I was entrusted with helping a fellow student struggling in both their introductory C++ and Python course. Through personalized one-on-one sessions, I effectively broke down complex programming concepts into simple, digestible explanations, covering both foundational topics and advanced features of C++ and Python. This role not only deepened my own mastery of C++, but also sharpened my communication and teaching skills. Additionally, I successfully balanced tutoring responsibilities with a demanding academic schedule, honing my time management and organizational abilities.",
       technologies: ["C++"]
     },
 
