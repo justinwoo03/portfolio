@@ -41,7 +41,7 @@ const Technologies = () => {
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className="w-32 h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
                 >
                     <RiReactjsLine className="text-7xl text-cyan-400" />
                     <p className="text-sm mt-2">React.JS</p>
@@ -50,7 +50,7 @@ const Technologies = () => {
                     variants={iconVariants(3)}
                     initial="initial"
                     animate="animate"
-                    className="w-32 h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
                 >
                     <TbBrandNextjs className="text-7xl" />
                     <p className="text-sm mt-2">Next.JS</p>
@@ -59,7 +59,7 @@ const Technologies = () => {
                     variants={iconVariants(3.5)}
                     initial="initial"
                     animate="animate"
-                    className="w-32 h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
                 >
                     <SiMongodb className="text-7xl text-green-500" />
                     <p className="text-sm mt-2">MongoDB</p>
@@ -68,7 +68,7 @@ const Technologies = () => {
                     variants={iconVariants(4)}
                     initial="initial"
                     animate="animate"
-                    className="w-32 h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
                 >
                     <DiRedis className="text-7xl text-red-700" />
                     <p className="text-sm mt-2">Redis</p>
@@ -77,7 +77,7 @@ const Technologies = () => {
                     variants={iconVariants(4.5)}
                     initial="initial"
                     animate="animate"
-                    className="w-32 h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
                 >
                     <FaNodeJs className="text-7xl text-green-500" />
                     <p className="text-sm mt-2">Node.JS</p>
@@ -86,10 +86,91 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-32 h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-sm mt-2">PostgreSQL</p>
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                >
+                    <BiLogoPostgresql className="text-7xl text-sky-700" />
+                    <p className="text-xs mt-2">PostgreSQL</p>
                 </motion.div>
             </motion.div>
         </div>
