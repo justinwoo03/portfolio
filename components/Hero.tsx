@@ -1,10 +1,50 @@
-import { FaLocationArrow } from "react-icons/fa6";
+"use client"
 
+import { FaLocationArrow } from "react-icons/fa6";
+import { useState, useEffect } from "react";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
+
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [displayedText, setDisplayedText] = useState("");
+  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const period = 1250;
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta)
+
+    return () => { clearInterval(ticker)};
+  }, [displayedText])
+
+  const tick = () => {
+    let i = currentRoleIndex % titles.length;
+    let fullText = titles[i]
+    let updatedText = isDeleting ? fullText.substring(0, displayedText.length - 1) : fullText.substring(0, displayedText.length + 1)
+
+    setDisplayedText(updatedText);
+
+    if (isDeleting) {
+      setDelta(prevDelta => prevDelta * .7);
+    }
+
+    if (!isDeleting && updatedText === fullText) {
+      setIsDeleting(true);
+      setDelta(period);
+    } else if (isDeleting && updatedText === "") {
+      setIsDeleting(false);
+      setCurrentRoleIndex(currentRoleIndex + 1);
+      setDelta(400);
+    }
+  }
+
+  const titles = ["Full-Stack Developer", "Web Designer", "Software Engineer", "Mobile Developer", "Data Scientist"]
+
   return (
     <div className="pb-20 pt-36">
       {/**
@@ -43,7 +83,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Welcome to my Portfolio
           </p>
 
           {/**
@@ -57,7 +97,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Justin, a Next.js Developer based in Chicago/Irvine.
+            Hi! I&apos;m Justin, a {displayedText}|  based in Chicago/Irvine.
           </p>
 
           <a href="#about">   

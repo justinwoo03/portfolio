@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 pr-2 pl-2 py-20">
+    <div className="border-b border-neutral-900 pb-4 pr-2 pl-2 py-20" id="experience">
       <h1 className="heading mb-20 text-center text-4xl">Experience</h1>
       <div>
         {workExperience.map(experience => (

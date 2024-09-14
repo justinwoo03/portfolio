@@ -26,7 +26,7 @@ const iconVariants = (duration: number) => ({
 const Technologies = () => {
 
     return (
-        <div className="py-20">
+        <div className="py-20" id="skills">
             <h1 className="heading">
                 My Skills and{" "}
                 <span className="text-purple">Technologies</span>
@@ -68,7 +68,7 @@ const Technologies = () => {
                     variants={iconVariants(4)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <DiRedis className="text-7xl text-red-700" />
                     <p className="text-sm mt-2">Redis</p>
@@ -77,7 +77,7 @@ const Technologies = () => {
                     variants={iconVariants(4.5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <FaNodeJs className="text-7xl text-green-500" />
                     <p className="text-sm mt-2">Node.JS</p>
@@ -86,7 +86,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -95,7 +95,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -104,7 +104,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -113,7 +113,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -122,7 +122,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -131,7 +131,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -140,7 +140,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -149,7 +149,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -158,7 +158,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-sm mt-2">PostgreSQL</p>
@@ -167,7 +167,7 @@ const Technologies = () => {
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate"
-                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-20"
+                    className="w-28 lg:w-32 h-28 lg:h-32 flex flex-col items-center justify-center rounded-2xl border-4 border-neutral-800 p-4 mt-19  lg:mt-20"
                 >
                     <BiLogoPostgresql className="text-7xl text-sky-700" />
                     <p className="text-xs mt-2">PostgreSQL</p>
